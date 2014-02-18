@@ -1,0 +1,23 @@
+commit a487fd521dacc82e5b3ada3f326e4a54335c24f9
+Author: Terrance Woods <tjwoods58@gmail.com>
+Date:   Mon Feb 10 12:03:13 2014 -0500
+
+    Finished everything in Project 3
+
+commit 6132c96bfad651e255bccc2066a5c579573177cb
+Author: Terrance Woods <tjwoods58@gmail.com>
+Date:   Mon Feb 10 11:28:14 2014 -0500
+
+    Got popularity just need sorting
+
+commit e746adf10224809e65b94d8d4aac8ee22a7b7083
+Author: Terrance Woods <tjwoods58@gmail.com>
+Date:   Fri Feb 7 21:47:23 2014 -0500
+
+    Finished everything except popularity
+
+commit f18edf23c613f34ae11b7fabb3487ab5f2074668
+Author: Terrance Woods <tjwoods58@gmail.com>
+Date:   Thu Feb 6 16:16:47 2014 -0500
+
+    Finished Task D in Rails Book
