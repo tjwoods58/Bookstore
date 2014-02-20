@@ -15,7 +15,7 @@
       		<%= button_to 'Add to Cart', line_items_path(product_id: product),
       			remote: true %>
       	</div>
-      <p>This book has been put in shoppers' carts <span class="pop"><%= product.popularity %> times</span></p>
+      <p data-product-id=<%= product.id %>>This book has been put in shoppers' carts <span class="pop"><%= product.popularity %> times</span></p>
       </div>
     <% end %>
   <% end %>

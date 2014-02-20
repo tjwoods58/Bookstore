@@ -1,1 +1,5 @@
 $('#cart').html("<%=j render @cart %>").hide('blind', 1000);
+
+<% @changes.each do |li| %>
+	$('[data-product-id=<%= li.id %>]').html ("This book has been put in shoppers' carts <%= li.popularity %> times");
+<% end %>

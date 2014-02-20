@@ -26,4 +26,10 @@ class Cart < ActiveRecord::Base
     
     current_item
     end
+    
+    def decrement_popularity(product_id)
+      current_item = line_items.find_by(product_id: product_id)
+      current_item.popularity -= 1
+      current_item.update_attributes(:popularity => current_item.popularity)
+    end
   end

@@ -47,21 +47,22 @@ class LineItemsController < ApplicationController
   # PUT /line_items/1
   # PUT /line_items/1.json
   def decrement
-      
-      @line_item = @cart.decrement_line_item_quantity(params[:id])
-      
-      respond_to do |format|
-        if @line_item.save
-          format.html { redirect_to store_path }
-          format.js { @current_item = @line_item }
-          format.json { head :ok }
-       else
-         format.html { render action: "edit" }
-         format.js { @current_item = @line_item }
-         format.json { render json: @line_item.errors, status: :unprocessable_entity }
-        end
+    @line_item = @cart.decrement_line_item_quantity(params[:id])
+    @line_item.product.popularity = @line_item.product.popularity - 1
+    @line_item.product.save()
+    
+    respond_to do |format|
+      if @line_item.save
+        format.html { redirect_to store_path }
+        format.js { @current_item = @line_item }
+        format.json { head :ok }
+      else
+        format.html { render action: "edit" }
+        format.js { @current_item = @line_item }
+        format.json { render json: @line_item.errors, status: :unprocessable_entity }
       end
-    end
+   end
+end
 
   # PATCH/PUT /line_items/1
   # PATCH/PUT /line_items/1.json

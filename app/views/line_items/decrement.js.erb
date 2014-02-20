@@ -4,3 +4,4 @@ if ($('#cart tr').length==1) {
     // Hide the cart
     $('#cart').hide('blind', 1000);    
 }
+$('[data-product-id=<%= @line_item.product.id %>]').html ("This book has been put in shoppers' carts <%= @line_item.product.popularity %> times");
