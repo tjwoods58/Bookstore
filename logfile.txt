@@ -1,23 +1,47 @@
-commit a487fd521dacc82e5b3ada3f326e4a54335c24f9
+commit 04cab2bf8c96e96df57accd42c593e8ef95b40bc
 Author: Terrance Woods <tjwoods58@gmail.com>
-Date:   Mon Feb 10 12:03:13 2014 -0500
+Date:   Thu Feb 20 17:44:16 2014 -0500
 
-    Finished everything in Project 3
+    Finished Project 4
 
-commit 6132c96bfad651e255bccc2066a5c579573177cb
+commit 7c9a38b5ed7ff3a4739b1c4005606cf0b0ff2b59
 Author: Terrance Woods <tjwoods58@gmail.com>
-Date:   Mon Feb 10 11:28:14 2014 -0500
+Date:   Thu Feb 20 13:08:19 2014 -0500
 
-    Got popularity just need sorting
+    Finshed second playtime in F
 
-commit e746adf10224809e65b94d8d4aac8ee22a7b7083
+commit 8a42c05d13c498059e8dc990c2c6fee4126db525
 Author: Terrance Woods <tjwoods58@gmail.com>
-Date:   Fri Feb 7 21:47:23 2014 -0500
+Date:   Wed Feb 19 13:18:53 2014 -0500
 
-    Finished everything except popularity
+    Finished playtime for F
 
-commit f18edf23c613f34ae11b7fabb3487ab5f2074668
+commit b867707a0437d3ff94672aaf1e892395e155618a
 Author: Terrance Woods <tjwoods58@gmail.com>
-Date:   Thu Feb 6 16:16:47 2014 -0500
+Date:   Wed Feb 19 13:03:21 2014 -0500
 
-    Finished Task D in Rails Book
+    Finished F in the book
+
+commit 5ae5b6cd0ede7d895fba43ac5d19dad57992fefa
+Author: Terrance Woods <tjwoods58@gmail.com>
+Date:   Tue Feb 18 18:53:33 2014 -0500
+
+    Finished before F.4
+
+commit 950172fe90cd8e58e5bc1f5e21b88d592ac85b8b
+Author: Terrance Woods <tjwoods58@gmail.com>
+Date:   Tue Feb 18 16:37:11 2014 -0500
+
+    Finished before F.3
+
+commit 363697fcce089b348f8518c05a92481f4dbad238
+Author: Terrance Woods <tjwoods58@gmail.com>
+Date:   Tue Feb 18 16:28:49 2014 -0500
+
+    Finished before change flow on F
+
+commit 2a61993ad3b19791699707073b1b36cf000fddf3
+Author: Terrance Woods <tjwoods58@gmail.com>
+Date:   Tue Feb 18 16:09:34 2014 -0500
+
+    Finished task E in rails book
