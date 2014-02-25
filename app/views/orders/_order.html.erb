@@ -1,0 +1,9 @@
+<h2>Your Order</h2>
+<table>
+	<%= render(order.line_items) %>
+
+	<tr class="total_line">
+	<td colspan="2">Total</td>
+	<td class="total_cell"><%= number_to_currency(order.total_price) %></td>
+	</tr>
+</table>
