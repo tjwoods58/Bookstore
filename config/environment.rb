@@ -12,8 +12,8 @@ Depot::Application.configure do
     address: "pod51004.outlook.com",
     port: 587, 
     authentication: "login",
-    user_name: "your_account@valdosta.edu", 
-    password: "your vsu email password", 
+    user_name: "tjwoods@valdosta.edu", 
+    password: "TJ58woods", 
     enable_starttls_auto: true
   }
 end

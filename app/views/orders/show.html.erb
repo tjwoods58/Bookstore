@@ -22,3 +22,34 @@
 
 <%= link_to 'Edit', edit_order_path(@order) %> |
 <%= link_to 'Back', orders_path %>
+
+<p>
+	<strong>Listing books:</strong>
+	<table>
+  <tr>
+    <th>Title</th>
+    <th>Cover Page</th>
+    <th>Unit Price</th>
+    <th>Nr. Copies</th>
+    <th>Total Price</th>
+  </tr>
+  <% @products.each do |product| %>
+  <tr>
+    <td><%= product.title %></td>
+    <td><%= image_tag(product.image_url) %></td>
+    <td><%= number_to_currency(product.price) %></td>
+    <% @order.line_items.each do |line_item| %>
+    	<% if (product.id == line_item.product_id)%>
+    		<td><%= line_item.quantity %></td>
+    		<td><%= number_to_currency(line_item.total_price) %></td>
+    	<% end %>
+    <% end %>
+  </tr>
+<% end %>
+</table>
+</p>
+<p>
+	<strong>
+		Total Price: <%= number_to_currency(@order.total_price) %>
+	</strong>
+</p>
