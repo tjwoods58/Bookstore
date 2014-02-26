@@ -28,6 +28,9 @@ class LineItemsController < ApplicationController
   def create
     product = Product.find(params[:product_id])
     @line_item = @cart.add_product(product.id)
+    if product.popularity.nil?
+      product.popularity = 0
+    end
     product.popularity += 1
     product.update_attributes(:popularity => product.popularity)
 
