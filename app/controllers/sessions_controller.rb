@@ -1,4 +1,5 @@
 class SessionsController < ApplicationController
+  layout 'orders'
   skip_before_action :authorize
   def new
   end
