@@ -1,5 +1,5 @@
 class OrderNotifier < ActionMailer::Base
-  default from: 'your name<your email address>'
+  default from: 'Terrance Woods<tjwoods@valdosta.edu>'
   def received(order)
     @order = order
     mail to: order.email, subject: 'Pragmatic Store Order Confirmation' do |format| format.html  
