@@ -13,6 +13,7 @@ class OrdersController < ApplicationController
       marker.lat order.latitude
       marker.lng order.longitude
       marker.title order.title
+      marker.infowindow order.description
     end
   end
 

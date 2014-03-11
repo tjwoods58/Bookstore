@@ -1,5 +1,5 @@
 User.transaction do
-  User.create( :name => 'admin', :password => 'admin', :password_confirmation => 'admin', :address => '13111 W.Marlette Ave. Litchfield Park, AZ 85340')
+  User.create( :name => 'admin', :password => 'admin', :password_confirmation => 'admin', :address => '13111 W.Marlette Ave. Litchfield Park, AZ 85340', :description => '2000001')
 end
 
 User.transaction do

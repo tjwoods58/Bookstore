@@ -1,9 +1,9 @@
 User.transaction do
-  User.create( :name => 'dave', :password => 'dave', :password_confirmation => 'dave', :address => 'Miami, FL')
+  User.create( :name => 'dave', :password => 'dave', :password_confirmation => 'dave', :address => 'Miami, FL', :description => '20000')
 end
 
 User.transaction do
-  User.create( :name => 'mary', :password => 'mary', :password_confirmation => 'mary', :address => 'New York City, NY')
+  User.create( :name => 'mary', :password => 'mary', :password_confirmation => 'mary', :address => 'New York City, NY', :description => '2000001')
 end
 
 User.transaction do
