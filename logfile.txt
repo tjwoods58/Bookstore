@@ -1,3 +1,45 @@
+commit 5d20f71664d99de6623190d128476aa271ed5ce7
+Author: Terrance Woods <tjwoods58@gmail.com>
+Date:   Tue Mar 11 00:37:59 2014 -0400
+
+    Finished Project 6
+
+commit e9ab5c235bc18dcac25c05cf4c221cee63dc3c4b
+Author: Terrance Woods <tjwoods58@gmail.com>
+Date:   Mon Mar 10 20:22:50 2014 -0400
+
+    Got everything except extra credit
+
+commit 09ade025c1463b851c7ee65b03781cc6f60a5796
+Author: Terrance Woods <tjwoods58@gmail.com>
+Date:   Mon Mar 10 11:54:30 2014 -0400
+
+    Users books ppart without the scripts
+
+commit 7ea1ba2e0cc86e5ae6a47cfe7e651384d5daf4cf
+Author: Terrance Woods <tjwoods58@gmail.com>
+Date:   Mon Mar 3 13:23:56 2014 -0500
+
+    Finished Task I in book
+
+commit c24c0e6ddd75143a74999673a471a679a0ae17b9
+Author: Terrance Woods <tjwoods58@gmail.com>
+Date:   Mon Mar 3 13:15:31 2014 -0500
+
+    Finished Task I in book
+
+commit a11976e2347535e9784f6c410e05c2d53f44dbac
+Author: Terrance Woods <tjwoods58@gmail.com>
+Date:   Tue Feb 25 19:53:29 2014 -0500
+
+    Finished Project 5
+
+commit 13161578a200b9871497d71a91543027af414364
+Author: Terrance Woods <tjwoods58@gmail.com>
+Date:   Tue Feb 25 19:47:59 2014 -0500
+
+    Finished Project 5
+
 commit 5306a6479c0337beb4a2ea9ed205dc15e595c9ef
 Author: Terrance Woods <tjwoods58@gmail.com>
 Date:   Tue Feb 25 19:37:26 2014 -0500
