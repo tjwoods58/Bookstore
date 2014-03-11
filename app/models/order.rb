@@ -1,5 +1,7 @@
 class Order < ActiveRecord::Base
   PAYMENT_TYPES = [ "Check", "Credit card", "Purchase order" ]
+  geocoded_by :address
+  after_validation :geocode
   has_many :line_items, dependent: :destroy
   has_many :products, through: :line_items
   validates :name, :address, :email, presence: true

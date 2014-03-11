@@ -1,4 +1,6 @@
 class User < ActiveRecord::Base
+  geocoded_by :address
+  after_validation :geocode
   validates :name, presence: true, uniqueness: true
   has_many :products
   has_secure_password

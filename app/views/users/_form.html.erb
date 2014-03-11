@@ -28,6 +28,18 @@
     <%= f.label :password_confirmation, 'Confirm:' %><br>
     <%= f.password_field :password_confirmation, size: 40 %>
   </div>
+  <div class="field">
+    <%= f.label :address, 'Address:' %><br>
+    <%= f.text_field :address, size: 60 %>
+  </div>
+  <div class="field">
+    <%= f.label :description, 'Description:' %><br>
+    <%= f.text_field :description, size: 40 %>
+  </div>
+  <div class="field">
+    <%= f.label :title, 'Title:' %><br>
+    <%= f.text_field :title, size: 40 %>
+  </div>
   <div class="actions">
     <%= f.submit %>
   </div>

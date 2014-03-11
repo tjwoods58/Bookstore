@@ -1,5 +1,5 @@
 source 'http://rubygems.org'
-
+#source 'http://github.com/apneadiving/Google-Maps-for-Rails'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
 
@@ -10,6 +10,8 @@ end
 
 gem 'carrierwave'
 gem 'will_paginate'
+gem 'gmaps4rails'
+gem 'geocoder'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 

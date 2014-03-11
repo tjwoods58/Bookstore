@@ -18,7 +18,7 @@ Product.create!(title: 'CoffeeScript',
   while writing clearer, cleaner, and safer code.
       </p>},
   image_url:   open('app/assets/images/cs.jpg'),    
-  price: 36.00, popularity: 0, users_id: 1)
+  price: 36.00, popularity: 0 )
 # . . .
 Product.create!(title: 'Programming Ruby 1.9 & 2.0',
   description:
@@ -28,7 +28,7 @@ Product.create!(title: 'Programming Ruby 1.9 & 2.0',
         you should add Ruby to your toolbox.
       </p>},
   image_url: open('app/assets/images/ruby.jpg'),
-  price: 49.95, popularity: 0, users_id: 2)
+  price: 49.95, popularity: 0)
 # . . .
 
 Product.create!(title: 'Rails Test Prescriptions',
@@ -42,4 +42,4 @@ Product.create!(title: 'Rails Test Prescriptions',
         including Cucumber, Shoulda, Machinist, Mocha, and Rcov.
       </p>},
   image_url: open('app/assets/images/rtp.jpg'),
-  price: 34.95, popularity: 0, users_id: 2)
+  price: 34.95, popularity: 0)
